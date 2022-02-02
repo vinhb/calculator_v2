@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    min-width: 15rem;
+    min-height: 20rem;
+    align-items: center;
+}
+
+.display {
+    border: solid gray 2px;
+    min-width: 100%;
+    min-height: 1.5rem;
+}
